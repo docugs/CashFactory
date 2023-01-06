@@ -18,7 +18,7 @@ apt-get update
 apt-get -y install docker-ce docker-ce-cli containerd.io
 systemctl enable docker.service
 apt-get -y install docker-compose
-
+docker-compose up -d
 mkdir -p data/bitping #create data directory for bitping credentials
 
 
